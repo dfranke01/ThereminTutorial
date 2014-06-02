@@ -1,0 +1,258 @@
+#define NOTE_Cm1   0 
+#define NOTE_CSm1  1
+#define NOTE_Dm1   2
+#define NOTE_DSm1  3
+#define NOTE_Em1   4
+#define NOTE_Fm1   5
+#define NOTE_FSm1  6
+#define NOTE_Gm1   7
+#define NOTE_GSm1  8
+#define NOTE_Am1   9
+#define NOTE_ASm1 10
+#define NOTE_Bm1 11
+#define NOTE_C0  12
+#define NOTE_CS0 13
+#define NOTE_D0  14
+#define NOTE_DS0 15
+#define NOTE_E0  16
+#define NOTE_F0  17
+#define NOTE_FS0 18
+#define NOTE_G0  19
+#define NOTE_GS0 20
+#define NOTE_A0  21
+#define NOTE_AS0 22
+#define NOTE_B0  23
+#define NOTE_C1  24
+#define NOTE_CS1 25
+#define NOTE_D1  26
+#define NOTE_DS1 27
+#define NOTE_E1  28
+#define NOTE_F1  29
+#define NOTE_FS1 30
+#define NOTE_G1  31
+#define NOTE_GS1 32
+#define NOTE_A1  33
+#define NOTE_AS1 34
+#define NOTE_B1  35
+#define NOTE_C2  36
+#define NOTE_CS2 37
+#define NOTE_D2  38
+#define NOTE_DS2 39
+#define NOTE_E2  40
+#define NOTE_F2  41
+#define NOTE_FS2 42
+#define NOTE_G2  43
+#define NOTE_GS2 44
+#define NOTE_A2  45
+#define NOTE_AS2 46
+#define NOTE_B2  47
+#define NOTE_C3  48
+#define NOTE_CS3 49
+#define NOTE_D3  50
+#define NOTE_DS3 51
+#define NOTE_E3  52
+#define NOTE_F3  53
+#define NOTE_FS3 54
+#define NOTE_G3  55
+#define NOTE_GS3 56
+#define NOTE_A3  57
+#define NOTE_AS3 58
+#define NOTE_B3  59
+#define NOTE_C4  60
+#define NOTE_CS4 61
+#define NOTE_D4  62
+#define NOTE_DS4 63
+#define NOTE_E4  64
+#define NOTE_F4  65
+#define NOTE_FS4 66
+#define NOTE_G4  67
+#define NOTE_GS4 68
+#define NOTE_A4  69
+#define NOTE_AS4 70
+#define NOTE_B4  71
+#define NOTE_C5  72
+#define NOTE_CS5 73
+#define NOTE_D5  74
+#define NOTE_DS5 75
+#define NOTE_E5  76
+#define NOTE_F5  77
+#define NOTE_FS5 78
+#define NOTE_G5  79
+#define NOTE_GS5 80
+#define NOTE_A5  81
+#define NOTE_AS5 82
+#define NOTE_B5  83
+#define NOTE_C6  84
+#define NOTE_CS6 85
+#define NOTE_D6  86
+#define NOTE_DS6 87
+#define NOTE_E6  88
+#define NOTE_F6  89
+#define NOTE_FS6 90
+#define NOTE_G6  91
+#define NOTE_GS6 92
+#define NOTE_A6  93
+#define NOTE_AS6 94
+#define NOTE_B6  95
+#define NOTE_C7  96
+#define NOTE_CS7 97
+#define NOTE_D7  98
+#define NOTE_DS7 99
+#define NOTE_E7  100
+#define NOTE_F7  101
+#define NOTE_FS7 102
+#define NOTE_G7  103
+#define NOTE_GS7 104
+#define NOTE_A7  105
+#define NOTE_AS7 106
+#define NOTE_B7  107
+#define NOTE_C8  108
+#define NOTE_CS8 109
+#define NOTE_D8  110
+#define NOTE_DS8 111
+#define NOTE_E8  112
+#define NOTE_F8  113
+#define NOTE_FS8 114
+#define NOTE_G8  115
+#define NOTE_GS8 116
+#define NOTE_A8  117
+#define NOTE_AS8 118
+#define NOTE_B8  119
+#define NOTE_C9  120
+#define NOTE_CS9 121
+#define NOTE_D9  122
+#define NOTE_DS9 123
+#define NOTE_E9  124
+#define NOTE_F9  125
+#define NOTE_FS9 126
+#define NOTE_G9  127
+
+
+// somewhere over the rainbow
+songData SWOTR[] = {{NOTE_GS3,    67-offset,      8},
+                    {NOTE_GS4,    74-offset,      8},
+                    {NOTE_G4,     40-offset,      9},
+                    {NOTE_DS4,    16-offset,      8},
+                    {NOTE_F4,     20-offset,      9},
+                    {NOTE_G4,     38-offset,      8},
+                    {NOTE_GS4,    47-offset,      7},
+                    {NOTE_GS3,    37-offset,      8},
+                    {NOTE_F4,     75-offset,      8},
+                    {NOTE_DS4,   130-offset,      6},
+                    {NOTE_F3,     77-offset,      8},
+                    {NOTE_CS4,    73-offset,      6},
+                    {NOTE_C4,     41-offset,      8},
+                    {NOTE_GS3,    16-offset,      7},
+                    {NOTE_AS3,    19-offset,      9},
+                    {NOTE_C4,     37-offset,      9},
+                    {NOTE_CS4,    39-offset,      6},
+                    {NOTE_AS3,    42-offset,      8},
+                    {NOTE_G3,      9-offset,      9},
+                    {NOTE_GS3,    13-offset,      7},
+                    {NOTE_AS3,    23-offset,      8},
+                    {NOTE_C4,     27-offset,      7},
+                    {NOTE_GS3,   114-offset,      7},
+                    {NOTE_GS3,    72-offset,      8},
+                    {NOTE_GS4,    77-offset,      6},
+                    {NOTE_G4,     41-offset,      7},
+                    {NOTE_DS4,    19-offset,      8},
+                    {NOTE_F4,     20-offset,      9},
+                    {NOTE_G4,     42-offset,      9},
+                    {NOTE_GS4,    53-offset,      7},
+                    {NOTE_GS3,    43-offset,      9},
+                    {NOTE_F4,     79-offset,      8},
+                    {NOTE_DS4,   128-offset,      8},
+                    {NOTE_F3,     38-offset,      9},
+                    {NOTE_CS4,    78-offset,      7},
+                    {NOTE_C4,     47-offset,      8},
+                    {NOTE_GS3,    16-offset,      8},
+                    {NOTE_AS3,    18-offset,      8},
+                    {NOTE_C4,     58-offset,      7},
+                    {NOTE_CS4,    40-offset,      7},
+                    {NOTE_AS3,    43-offset,      9},
+                    {NOTE_G3,     13-offset,      9},
+                    {NOTE_GS3,    13-offset,      8},
+                    {NOTE_AS3,    51-offset,      8},
+                    {NOTE_C4,     63-offset,      8},
+                    {NOTE_GS3,    93-offset,      5},
+                    {NOTE_DS4,    97-offset,      8},
+                    {NOTE_C4,     32-offset,      6},
+                    {NOTE_DS4,    23-offset,      5},
+                    {NOTE_C4,     19-offset,      8},
+                    {NOTE_DS4,    20-offset,      7},
+                    {NOTE_C4,     17-offset,      8},
+                    {NOTE_DS4,    19-offset,      8},
+                    {NOTE_C4,     20-offset,      8},
+                    {NOTE_DS4,    20-offset,      9},
+                    {NOTE_CS4,    18-offset,      7},
+                    {NOTE_DS4,    17-offset,      8},
+                    {NOTE_CS4,    16-offset,      7},
+                    {NOTE_DS4,    18-offset,      8},
+                    {NOTE_CS4,    16-offset,      7},
+                    {NOTE_DS4,    19-offset,      8},
+                    {NOTE_CS4,    21-offset,      8},
+                    {NOTE_DS4,    26-offset,      8},
+                    {NOTE_F4,     81-offset,      9},
+                    {NOTE_F4,    148-offset,      8},
+                    {NOTE_DS4,    19-offset,      7},
+                    {NOTE_C4,     16-offset,      7},
+                    {NOTE_DS4,    17-offset,      7},
+                    {NOTE_C4,     15-offset,      8},
+                    {NOTE_DS4,    17-offset,      7},
+                    {NOTE_C4,     15-offset,      9},
+                    {NOTE_DS4,    17-offset,      8},
+                    {NOTE_C4,     19-offset,      8},
+                    {NOTE_D4,     20-offset,      8},
+                    {NOTE_D4,     17-offset,      9},
+                    {NOTE_F4,     16-offset,      9},
+                    {NOTE_D4,     15-offset,      9},
+                    {NOTE_F4,     15-offset,      9},
+                    {NOTE_D4,     16-offset,      8},
+                    {NOTE_F4,     18-offset,      9},
+                    {NOTE_D4,     21-offset,      9},
+                    {NOTE_F4,     23-offset,      9},
+                    {NOTE_G4,     82-offset,      10},
+                    {NOTE_G4,     94-offset,      8},
+                    {NOTE_AS4,   108-offset,      9},
+                    {NOTE_F4,    161-offset,      6},
+                    {NOTE_GS3,    75-offset,      8},
+                    {NOTE_GS4,    74-offset,      8},
+                    {NOTE_G4,     38-offset,      9},
+                    {NOTE_DS4,    20-offset,      8},
+                    {NOTE_F4,     19-offset,      9},
+                    {NOTE_G4,     41-offset,      8},
+                    {NOTE_GS4,    53-offset,      8},
+                    {NOTE_GS3,    44-offset,      9},
+                    {NOTE_F4,     74-offset,      8},
+                    {NOTE_DS4,   119-offset,      7},
+                    {NOTE_F3,     36-offset,      8},
+                    {NOTE_CS4,    76-offset,      9},
+                    {NOTE_C4,     43-offset,      8},
+                    {NOTE_GS3,    19-offset,      8},
+                    {NOTE_AS3,    21-offset,      9},
+                    {NOTE_C4,     49-offset,      8},
+                    {NOTE_CS4,    61-offset,      7},
+                    {NOTE_AS3,    56-offset,      8},
+                    {NOTE_G3,     53-offset,      7},
+                    {NOTE_G3,     31-offset,      8},
+                    {NOTE_AS3,    66-offset,      8},
+                    {NOTE_C4,     98-offset,      8},
+                    {NOTE_GS3,   139-offset,      8},
+                    {NOTE_DS4,    22-offset,      8},
+                    {NOTE_C4,     18-offset,      7},
+                    {NOTE_DS4,    20-offset,      7},
+                    {NOTE_C4,     17-offset,      7},
+                    {NOTE_DS4,    20-offset,      8},
+                    {NOTE_C4,     19-offset,      8},
+                    {NOTE_DS4,    23-offset,      7},
+                    {NOTE_C4,     30-offset,      6},
+                    {NOTE_DS4,    24-offset,      7},
+                    {NOTE_CS4,    23-offset,      7},
+                    {NOTE_DS4,    22-offset,      6},
+                    {NOTE_CS4,    26-offset,      7},
+                    {NOTE_DS4,    38-offset,      7},
+                    {NOTE_CS4,    51-offset,      7},
+                    {NOTE_DS4,    80-offset,      8},
+                    {NOTE_F4,    101-offset,      9},
+                    {NOTE_G4,    130-offset,      9},
+                    {NOTE_GS4,   261-offset,      8}};
